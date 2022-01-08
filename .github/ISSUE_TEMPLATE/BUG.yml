@@ -7,9 +7,10 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: File a Bug Report for your repo
+      value: | 
+         File a Bug Report for your repo
   - type: input
-    id: detected-by
+    id: detectedBy
     attributes:
       label: Detected BY
       description: User who identified this Bug
@@ -17,12 +18,12 @@ body:
     validations:
       required: false
   - type: textarea
-    id: repro-steps
+    id: reproSteps
     attributes:
       label: Repro Steps
       description: Steps to reproduce this Bug
       placeholder: Step 1, Step2, Step n
-      value: ""
+      value: ex. Test
     validations:
       required: true
    - type: textarea
@@ -31,7 +32,7 @@ body:
       label: System Info
       description: System Information related to this Bug
       placeholder: Windows 10
-      value: ""
+      value: ex. Test
     validations:
       required: true
   - type: dropdown
