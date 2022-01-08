@@ -7,8 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        File a Bug Report for your repo
+      value: File a Bug Report for your repo
   - type: input
     id: detected-by
     attributes:
