@@ -8,22 +8,31 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        File a Bug Report for your repo
   - type: input
-    id: contact
+    id: detected-by
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Detected BY
+      description: User who identified this Bug
+      placeholder: ex. sn322_MGBGHEC
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: repro-steps
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Repro Steps
+      description: Steps to reproduce this Bug
+      placeholder: Step 1, Step2, Step n
+      value: ""
+    validations:
+      required: true
+   - type: textarea
+    id: system-info
+    attributes:
+      label: System Info
+      description: System Information related to this Bug
+      placeholder: Windows 10
+      value: ""
     validations:
       required: true
   - type: dropdown
