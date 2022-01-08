@@ -10,11 +10,11 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: detectedBY
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Detected By
+      description: User who detected the Bug
+      placeholder: ex. sn322_MGBGHEC
     validations:
       required: false
   - type: textarea
